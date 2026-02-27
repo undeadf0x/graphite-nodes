@@ -1,0 +1,109 @@
+graphite/nodes: [
+    [
+        0,
+        {
+            "document_node": {
+                "inputs": [
+                    {
+                        "Value": {
+                            "tagged_value": "None",
+                            "exposed": false
+                        }
+                    },
+                    {
+                        "Value": {
+                            "tagged_value": {
+                                "String": ""
+                            },
+                            "exposed": false
+                        }
+                    }
+                ],
+                "call_argument": {
+                    "Concrete": {
+                        "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                        "alias": null
+                    }
+                },
+                "implementation": {
+                    "Network": {
+                        "exports": [],
+                        "nodes": [],
+                        "scope_injections": []
+                    }
+                },
+                "visible": true,
+                "skip_deduplication": false,
+                "context_features": {
+                    "extract": "",
+                    "inject": ""
+                }
+            },
+            "persistent_node_metadata": {
+                "display_name": "# Comment",
+                "input_metadata": [
+                    {
+                        "persistent_metadata": {
+                            "input_data": {},
+                            "widget_override": null,
+                            "input_name": "",
+                            "input_description": ""
+                        }
+                    },
+                    {
+                        "persistent_metadata": {
+                            "input_data": {},
+                            "widget_override": "text_area",
+                            "input_name": "Description",
+                            "input_description": ""
+                        }
+                    }
+                ],
+                "output_names": [],
+                "locked": false,
+                "pinned": false,
+                "node_type_metadata": {
+                    "Node": {
+                        "position": {
+                            "Absolute": [
+                                -12,
+                                22
+                            ]
+                        }
+                    }
+                },
+                "network_metadata": {
+                    "persistent_metadata": {
+                        "reference": null,
+                        "node_metadata": [],
+                        "previewing": "No",
+                        "navigation_metadata": {
+                            "node_graph_ptz": {
+                                "pan": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "tilt": 0.0,
+                                "zoom": 1.0,
+                                "flip": false
+                            },
+                            "node_graph_to_viewport": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                513.0,
+                                228.0
+                            ],
+                            "node_graph_width": 1026.0
+                        },
+                        "selection_undo_history": [
+                            []
+                        ],
+                        "selection_redo_history": []
+                    }
+                }
+            }
+        }
+    ]
+]

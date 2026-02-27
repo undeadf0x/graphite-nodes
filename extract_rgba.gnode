@@ -1,0 +1,1597 @@
+graphite/nodes: [
+  [
+    0,
+    {
+      "document_node": {
+        "inputs": [
+          {
+            "Value": {
+              "tagged_value": {
+                "Color": {
+                  "element": [
+                    
+                  ],
+                  "transform": [
+                    
+                  ],
+                  "alpha_blending": [
+                    
+                  ],
+                  "source_node_id": [
+                    
+                  ]
+                }
+              },
+              "exposed": true
+            }
+          }
+        ],
+        "call_argument": {
+          "Concrete": {
+            "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+            "alias": null
+          }
+        },
+        "implementation": {
+          "Network": {
+            "exports": [
+              {
+                "Value": {
+                  "tagged_value": {
+                    "F64": 0.0
+                  },
+                  "exposed": false
+                }
+              },
+              {
+                "Node": {
+                  "node_id": 1487275543593894520,
+                  "output_index": 0
+                }
+              },
+              {
+                "Node": {
+                  "node_id": 13660214327701397651,
+                  "output_index": 0
+                }
+              },
+              {
+                "Node": {
+                  "node_id": 9172004322442574905,
+                  "output_index": 0
+                }
+              },
+              {
+                "Node": {
+                  "node_id": 17868380543897579875,
+                  "output_index": 0
+                }
+              }
+            ],
+            "nodes": [
+              [
+                1487275543593894520,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 8395425281891594234,
+                        "output_index": 0
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "Network": {
+                      "exports": [
+                        {
+                          "Node": {
+                            "node_id": 12762388420569398950,
+                            "output_index": 0
+                          }
+                        }
+                      ],
+                      "nodes": [
+                        [
+                          12762388420569398950,
+                          {
+                            "inputs": [
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 0.0
+                                  },
+                                  "exposed": true
+                                }
+                              },
+                              {
+                                "Import": {
+                                  "import_type": {
+                                    "Generic": "T"
+                                  },
+                                  "import_index": 0
+                                }
+                              },
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 1.0
+                                  },
+                                  "exposed": false
+                                }
+                              }
+                            ],
+                            "call_argument": {
+                              "Concrete": {
+                                "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                                "alias": null
+                              }
+                            },
+                            "implementation": {
+                              "ProtoNode": {
+                                "name": "math_nodes::MathNode"
+                              }
+                            },
+                            "visible": true,
+                            "skip_deduplication": false,
+                            "context_features": {
+                              "extract": "",
+                              "inject": ""
+                            }
+                          }
+                        ]
+                      ],
+                      "scope_injections": [
+                        
+                      ]
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                7398429346290803171,
+                {
+                  "inputs": [
+                    {
+                      "Import": {
+                        "import_type": {
+                          "Generic": "T"
+                        },
+                        "import_index": 0
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::SerializeNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                9172004322442574905,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 3542403813618330445,
+                        "output_index": 0
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "Network": {
+                      "exports": [
+                        {
+                          "Node": {
+                            "node_id": 12762388420569398950,
+                            "output_index": 0
+                          }
+                        }
+                      ],
+                      "nodes": [
+                        [
+                          12762388420569398950,
+                          {
+                            "inputs": [
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 0.0
+                                  },
+                                  "exposed": true
+                                }
+                              },
+                              {
+                                "Import": {
+                                  "import_type": {
+                                    "Generic": "T"
+                                  },
+                                  "import_index": 0
+                                }
+                              },
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 1.0
+                                  },
+                                  "exposed": false
+                                }
+                              }
+                            ],
+                            "call_argument": {
+                              "Concrete": {
+                                "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                                "alias": null
+                              }
+                            },
+                            "implementation": {
+                              "ProtoNode": {
+                                "name": "math_nodes::MathNode"
+                              }
+                            },
+                            "visible": true,
+                            "skip_deduplication": false,
+                            "context_features": {
+                              "extract": "",
+                              "inject": ""
+                            }
+                          }
+                        ]
+                      ],
+                      "scope_injections": [
+                        
+                      ]
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                3542403813618330445,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 11971124888722008906,
+                        "output_index": 0
+                      }
+                    },
+                    {
+                      "Value": {
+                        "tagged_value": {
+                          "String": "blue"
+                        },
+                        "exposed": false
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::JsonGetNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                13660214327701397651,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 15074524474160777469,
+                        "output_index": 0
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "Network": {
+                      "exports": [
+                        {
+                          "Node": {
+                            "node_id": 12762388420569398950,
+                            "output_index": 0
+                          }
+                        }
+                      ],
+                      "nodes": [
+                        [
+                          12762388420569398950,
+                          {
+                            "inputs": [
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 0.0
+                                  },
+                                  "exposed": true
+                                }
+                              },
+                              {
+                                "Import": {
+                                  "import_type": {
+                                    "Generic": "T"
+                                  },
+                                  "import_index": 0
+                                }
+                              },
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 1.0
+                                  },
+                                  "exposed": false
+                                }
+                              }
+                            ],
+                            "call_argument": {
+                              "Concrete": {
+                                "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                                "alias": null
+                              }
+                            },
+                            "implementation": {
+                              "ProtoNode": {
+                                "name": "math_nodes::MathNode"
+                              }
+                            },
+                            "visible": true,
+                            "skip_deduplication": false,
+                            "context_features": {
+                              "extract": "",
+                              "inject": ""
+                            }
+                          }
+                        ]
+                      ],
+                      "scope_injections": [
+                        
+                      ]
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                15074524474160777469,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 11971124888722008906,
+                        "output_index": 0
+                      }
+                    },
+                    {
+                      "Value": {
+                        "tagged_value": {
+                          "String": "green"
+                        },
+                        "exposed": false
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::JsonGetNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                17868380543897579875,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 12295552020672625776,
+                        "output_index": 0
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "Network": {
+                      "exports": [
+                        {
+                          "Node": {
+                            "node_id": 12762388420569398950,
+                            "output_index": 0
+                          }
+                        }
+                      ],
+                      "nodes": [
+                        [
+                          12762388420569398950,
+                          {
+                            "inputs": [
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 0.0
+                                  },
+                                  "exposed": true
+                                }
+                              },
+                              {
+                                "Import": {
+                                  "import_type": {
+                                    "Generic": "T"
+                                  },
+                                  "import_index": 0
+                                }
+                              },
+                              {
+                                "Value": {
+                                  "tagged_value": {
+                                    "F64": 1.0
+                                  },
+                                  "exposed": false
+                                }
+                              }
+                            ],
+                            "call_argument": {
+                              "Concrete": {
+                                "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                                "alias": null
+                              }
+                            },
+                            "implementation": {
+                              "ProtoNode": {
+                                "name": "math_nodes::MathNode"
+                              }
+                            },
+                            "visible": true,
+                            "skip_deduplication": false,
+                            "context_features": {
+                              "extract": "",
+                              "inject": ""
+                            }
+                          }
+                        ]
+                      ],
+                      "scope_injections": [
+                        
+                      ]
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                11971124888722008906,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 5420307206245615570,
+                        "output_index": 0
+                      }
+                    },
+                    {
+                      "Value": {
+                        "tagged_value": {
+                          "String": "0"
+                        },
+                        "exposed": false
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::JsonGetNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                5420307206245615570,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 7398429346290803171,
+                        "output_index": 0
+                      }
+                    },
+                    {
+                      "Value": {
+                        "tagged_value": {
+                          "String": "element"
+                        },
+                        "exposed": false
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::JsonGetNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                12295552020672625776,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 11971124888722008906,
+                        "output_index": 0
+                      }
+                    },
+                    {
+                      "Value": {
+                        "tagged_value": {
+                          "String": "alpha"
+                        },
+                        "exposed": false
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::JsonGetNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ],
+              [
+                8395425281891594234,
+                {
+                  "inputs": [
+                    {
+                      "Node": {
+                        "node_id": 11971124888722008906,
+                        "output_index": 0
+                      }
+                    },
+                    {
+                      "Value": {
+                        "tagged_value": {
+                          "String": "red"
+                        },
+                        "exposed": false
+                      }
+                    }
+                  ],
+                  "call_argument": {
+                    "Concrete": {
+                      "name": "core::option::Option<alloc::sync::Arc<core_types::context::OwnedContextImpl>>",
+                      "alias": null
+                    }
+                  },
+                  "implementation": {
+                    "ProtoNode": {
+                      "name": "graphene_core::logic::JsonGetNode"
+                    }
+                  },
+                  "visible": true,
+                  "skip_deduplication": false,
+                  "context_features": {
+                    "extract": "",
+                    "inject": ""
+                  }
+                }
+              ]
+            ],
+            "scope_injections": [
+              
+            ]
+          }
+        },
+        "visible": true,
+        "skip_deduplication": false,
+        "context_features": {
+          "extract": "",
+          "inject": ""
+        }
+      },
+      "persistent_node_metadata": {
+        "display_name": "Extract RGBA",
+        "input_metadata": [
+          {
+            "persistent_metadata": {
+              "input_data": {
+                
+              },
+              "widget_override": null,
+              "input_name": "Color",
+              "input_description": ""
+            }
+          }
+        ],
+        "output_names": [
+          "",
+          "Red",
+          "Green",
+          "Blue",
+          "Alpha"
+        ],
+        "locked": false,
+        "pinned": false,
+        "node_type_metadata": {
+          "Node": {
+            "position": {
+              "Absolute": [
+                -57,
+                17
+              ]
+            }
+          }
+        },
+        "network_metadata": {
+          "persistent_metadata": {
+            "reference": null,
+            "node_metadata": [
+              [
+                17868380543897579875,
+                {
+                  "persistent_metadata": {
+                    "display_name": "String ⟶ f64",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "String",
+                          "input_description": ""
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      "f64"
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            10,
+                            0
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": {
+                      "persistent_metadata": {
+                        "reference": null,
+                        "node_metadata": [
+                          [
+                            12762388420569398950,
+                            {
+                              "persistent_metadata": {
+                                "display_name": "",
+                                "input_metadata": [
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand A",
+                                      "input_description": "The value of \"A\" when calculating the expression.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Expression",
+                                      "input_description": "A math expression that may incorporate \"A\" and/or \"B\", such as `sqrt(A + B) - B^2`.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand B",
+                                      "input_description": "The value of \"B\" when calculating the expression.\n"
+                                    }
+                                  }
+                                ],
+                                "output_names": [
+                                  
+                                ],
+                                "locked": false,
+                                "pinned": false,
+                                "node_type_metadata": {
+                                  "Node": {
+                                    "position": {
+                                      "Absolute": [
+                                        -8,
+                                        -18
+                                      ]
+                                    }
+                                  }
+                                },
+                                "network_metadata": null
+                              }
+                            }
+                          ]
+                        ],
+                        "previewing": "No",
+                        "navigation_metadata": {
+                          "node_graph_ptz": {
+                            "pan": [
+                              132.040293878317,
+                              429.7859204709533
+                            ],
+                            "tilt": 0.0,
+                            "zoom": 1.0,
+                            "flip": false
+                          },
+                          "node_graph_to_viewport": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            645.0,
+                            657.0
+                          ],
+                          "node_graph_width": 1026.0
+                        },
+                        "selection_undo_history": [
+                          [
+                            
+                          ]
+                        ],
+                        "selection_redo_history": [
+                          
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              [
+                9172004322442574905,
+                {
+                  "persistent_metadata": {
+                    "display_name": "String ⟶ f64",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "String",
+                          "input_description": ""
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      "f64"
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            10,
+                            -1
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": {
+                      "persistent_metadata": {
+                        "reference": null,
+                        "node_metadata": [
+                          [
+                            12762388420569398950,
+                            {
+                              "persistent_metadata": {
+                                "display_name": "",
+                                "input_metadata": [
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand A",
+                                      "input_description": "The value of \"A\" when calculating the expression.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Expression",
+                                      "input_description": "A math expression that may incorporate \"A\" and/or \"B\", such as `sqrt(A + B) - B^2`.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand B",
+                                      "input_description": "The value of \"B\" when calculating the expression.\n"
+                                    }
+                                  }
+                                ],
+                                "output_names": [
+                                  
+                                ],
+                                "locked": false,
+                                "pinned": false,
+                                "node_type_metadata": {
+                                  "Node": {
+                                    "position": {
+                                      "Absolute": [
+                                        -8,
+                                        -18
+                                      ]
+                                    }
+                                  }
+                                },
+                                "network_metadata": null
+                              }
+                            }
+                          ]
+                        ],
+                        "previewing": "No",
+                        "navigation_metadata": {
+                          "node_graph_ptz": {
+                            "pan": [
+                              132.040293878317,
+                              396.2859204709533
+                            ],
+                            "tilt": 0.0,
+                            "zoom": 1.0,
+                            "flip": false
+                          },
+                          "node_graph_to_viewport": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            645.0,
+                            624.0
+                          ],
+                          "node_graph_width": 1026.0
+                        },
+                        "selection_undo_history": [
+                          [
+                            
+                          ]
+                        ],
+                        "selection_redo_history": [
+                          
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              [
+                12295552020672625776,
+                {
+                  "persistent_metadata": {
+                    "display_name": "[\"alpha\"]",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Data",
+                          "input_description": "The json data.\n"
+                        }
+                      },
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Key",
+                          "input_description": "The key to index the object with.\n"
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            4,
+                            0
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ],
+              [
+                3542403813618330445,
+                {
+                  "persistent_metadata": {
+                    "display_name": "[\"blue\"]",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Data",
+                          "input_description": "The json data.\n"
+                        }
+                      },
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Key",
+                          "input_description": "The key to index the object with.\n"
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            4,
+                            -1
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ],
+              [
+                1487275543593894520,
+                {
+                  "persistent_metadata": {
+                    "display_name": "String ⟶ f64",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Blah",
+                          "input_description": ""
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      "f64"
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            10,
+                            -3
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": {
+                      "persistent_metadata": {
+                        "reference": null,
+                        "node_metadata": [
+                          [
+                            12762388420569398950,
+                            {
+                              "persistent_metadata": {
+                                "display_name": "",
+                                "input_metadata": [
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand A",
+                                      "input_description": "The value of \"A\" when calculating the expression.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Expression",
+                                      "input_description": "A math expression that may incorporate \"A\" and/or \"B\", such as `sqrt(A + B) - B^2`.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand B",
+                                      "input_description": "The value of \"B\" when calculating the expression.\n"
+                                    }
+                                  }
+                                ],
+                                "output_names": [
+                                  
+                                ],
+                                "locked": false,
+                                "pinned": false,
+                                "node_type_metadata": {
+                                  "Node": {
+                                    "position": {
+                                      "Absolute": [
+                                        -8,
+                                        -18
+                                      ]
+                                    }
+                                  }
+                                },
+                                "network_metadata": null
+                              }
+                            }
+                          ]
+                        ],
+                        "previewing": "No",
+                        "navigation_metadata": {
+                          "node_graph_ptz": {
+                            "pan": [
+                              132.040293878317,
+                              396.2859204709533
+                            ],
+                            "tilt": 0.0,
+                            "zoom": 1.0,
+                            "flip": false
+                          },
+                          "node_graph_to_viewport": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            645.0,
+                            624.0
+                          ],
+                          "node_graph_width": 1026.0
+                        },
+                        "selection_undo_history": [
+                          [
+                            
+                          ]
+                        ],
+                        "selection_redo_history": [
+                          
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              [
+                15074524474160777469,
+                {
+                  "persistent_metadata": {
+                    "display_name": "[\"green\"]",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Data",
+                          "input_description": "The json data.\n"
+                        }
+                      },
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Key",
+                          "input_description": "The key to index the object with.\n"
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            4,
+                            -2
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ],
+              [
+                7398429346290803171,
+                {
+                  "persistent_metadata": {
+                    "display_name": "",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Value",
+                          "input_description": ""
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            -16,
+                            -3
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ],
+              [
+                8395425281891594234,
+                {
+                  "persistent_metadata": {
+                    "display_name": "[\"red\"]",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Data",
+                          "input_description": "The json data.\n"
+                        }
+                      },
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Key",
+                          "input_description": "The key to index the object with.\n"
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            4,
+                            -3
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ],
+              [
+                13660214327701397651,
+                {
+                  "persistent_metadata": {
+                    "display_name": "String ⟶ f64",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "String",
+                          "input_description": ""
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      "f64"
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            10,
+                            -2
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": {
+                      "persistent_metadata": {
+                        "reference": null,
+                        "node_metadata": [
+                          [
+                            12762388420569398950,
+                            {
+                              "persistent_metadata": {
+                                "display_name": "",
+                                "input_metadata": [
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand A",
+                                      "input_description": "The value of \"A\" when calculating the expression.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Expression",
+                                      "input_description": "A math expression that may incorporate \"A\" and/or \"B\", such as `sqrt(A + B) - B^2`.\n"
+                                    }
+                                  },
+                                  {
+                                    "persistent_metadata": {
+                                      "input_data": {
+                                        
+                                      },
+                                      "widget_override": null,
+                                      "input_name": "Operand B",
+                                      "input_description": "The value of \"B\" when calculating the expression.\n"
+                                    }
+                                  }
+                                ],
+                                "output_names": [
+                                  
+                                ],
+                                "locked": false,
+                                "pinned": false,
+                                "node_type_metadata": {
+                                  "Node": {
+                                    "position": {
+                                      "Absolute": [
+                                        -8,
+                                        -18
+                                      ]
+                                    }
+                                  }
+                                },
+                                "network_metadata": null
+                              }
+                            }
+                          ]
+                        ],
+                        "previewing": "No",
+                        "navigation_metadata": {
+                          "node_graph_ptz": {
+                            "pan": [
+                              132.040293878317,
+                              396.2859204709533
+                            ],
+                            "tilt": 0.0,
+                            "zoom": 1.0,
+                            "flip": false
+                          },
+                          "node_graph_to_viewport": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            645.0,
+                            624.0
+                          ],
+                          "node_graph_width": 1026.0
+                        },
+                        "selection_undo_history": [
+                          [
+                            
+                          ]
+                        ],
+                        "selection_redo_history": [
+                          
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              [
+                11971124888722008906,
+                {
+                  "persistent_metadata": {
+                    "display_name": "[0]",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Data",
+                          "input_description": "The json data.\n"
+                        }
+                      },
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Key",
+                          "input_description": "The key to index the object with.\n"
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            -4,
+                            -3
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ],
+              [
+                5420307206245615570,
+                {
+                  "persistent_metadata": {
+                    "display_name": "[\"element\"]",
+                    "input_metadata": [
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Data",
+                          "input_description": "The json data.\n"
+                        }
+                      },
+                      {
+                        "persistent_metadata": {
+                          "input_data": {
+                            
+                          },
+                          "widget_override": null,
+                          "input_name": "Key",
+                          "input_description": "The key to index the object with.\n"
+                        }
+                      }
+                    ],
+                    "output_names": [
+                      
+                    ],
+                    "locked": false,
+                    "pinned": false,
+                    "node_type_metadata": {
+                      "Node": {
+                        "position": {
+                          "Absolute": [
+                            -10,
+                            -3
+                          ]
+                        }
+                      }
+                    },
+                    "network_metadata": null
+                  }
+                }
+              ]
+            ],
+            "previewing": "No",
+            "navigation_metadata": {
+              "node_graph_ptz": {
+                "pan": [
+                  11.922329756617556,
+                  11.50907237529755
+                ],
+                "tilt": 0.0,
+                "zoom": 1.0,
+                "flip": false
+              },
+              "node_graph_to_viewport": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                525.0,
+                239.0
+              ],
+              "node_graph_width": 1026.0
+            },
+            "selection_undo_history": [
+              [
+                
+              ]
+            ],
+            "selection_redo_history": [
+              
+            ]
+          }
+        }
+      }
+    }
+  ]
+]
